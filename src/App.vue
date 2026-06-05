@@ -135,6 +135,18 @@ const projects = [
           View Portfolio
         </a>
 
+        <div class="mt-6 flex flex-wrap justify-center gap-4">
+
+  <a
+    href="/cv-achmad-wildan.pdf"
+    download
+    class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold"
+  >
+    📄 Download CV
+  </a>
+
+</div>
+
       </div>
     </section>
 
@@ -203,6 +215,7 @@ const projects = [
             <ul class="list-disc ml-5 mt-3">
               <li>Membuat Website Training</li>
               <li>Maintenance Website Purchasing</li>
+              <li>Mengaplikasikan ke server lokal</li>
             </ul>
           </div>
 
@@ -251,6 +264,62 @@ const projects = [
           <div class="bg-white p-4 rounded-xl shadow text-center">Alibaba Cloud</div>
 
         </div>
+
+        <section class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-center mb-10">
+      Certificates
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <a
+        href="/sertifikat magang jababeka.pdf"
+        target="_blank"
+        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+      >
+        <h3 class="font-bold">
+          MSIB Batch 6
+        </h3>
+
+        <p class="text-gray-600 mt-2">
+          PT Kawasan Industri Jababeka Tbk
+        </p>
+      </a>
+
+      <a
+        href="/sertifikat BNSP.pdf"
+        target="_blank"
+        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+      >
+        <h3 class="font-bold">
+          Analisis Program
+        </h3>
+
+        <p class="text-gray-600 mt-2">
+          Sertifikat Kompetensi BNSP
+        </p>
+      </a>
+
+      <a
+        href="/sertifikat maganghub.pdf"
+        target="_blank"
+        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+      >
+        <h3 class="font-bold">
+         MagangHub Batch 1
+        </h3>
+
+        <p class="text-gray-600 mt-2">
+          PT DharmaControlCable Indonesia
+        </p>
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
       </div>
     </section>
