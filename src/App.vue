@@ -532,9 +532,36 @@ const projects = [
     </div>
 
   </div>
+  <div class="flex justify-center gap-8 mt-16">
+
+  <a
+    href="https://github.com/ahmadwildanf"
+    target="_blank"
+    class="text-5xl text-gray-700 hover:text-black transition"
+  >
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a
+    href="https://linkedin.com/in/achmadwildanfaiz"
+    target="_blank"
+    class="text-5xl text-blue-600 hover:scale-110 transition"
+  >
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+ <a
+    href="https://instagram.com/ahmad_wildan86"
+    target="_blank"
+    class="text-5xl text-pink-500 hover:scale-110 transition"
+  >
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
 </section>
 
     <footer class="bg-gray-900 text-white text-center py-5">
+    
       © 2026 Achmad Wildan Alfarizky
     </footer>
 
