@@ -448,22 +448,91 @@ const projects = [
     </div>
 
     <!-- Contact -->
-    <section
-      id="contact"
-      class="bg-white py-20"
-    >
-      <div class="text-center">
+<section
+  id="contact"
+  class="bg-gradient-to-b from-white to-gray-100 py-24"
+>
+  <div class="max-w-6xl mx-auto px-6">
 
-        <h2 class="text-4xl font-bold mb-6">
-          Contact Me
-        </h2>
+    <h2 class="text-5xl font-bold text-center mb-6">
+      Contact Me
+    </h2>
 
-        <p>📧 awildan170@gmail.com</p>
-        <p>📱 0895337080857</p>
-        <p>📍 Cirebon, Jawa Barat</p>
+    <p class="text-center text-xl text-gray-600 mb-16">
+      Mari berdiskusi mengenai project, peluang kerja,
+      atau kolaborasi pengembangan website.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Email -->
+      <div
+        class="bg-white rounded-3xl shadow-lg p-10 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300"
+      >
+
+        <i
+          class="fa-solid fa-envelope text-6xl text-red-500 mb-6"
+        ></i>
+
+        <h3 class="text-2xl font-bold mb-4">
+          Email
+        </h3>
+
+        <a
+          href="mailto:awildan170@gmail.com"
+          class="text-lg text-gray-600 hover:text-blue-600"
+        >
+          awildan170@gmail.com
+        </a>
 
       </div>
-    </section>
+
+      <!-- WhatsApp -->
+      <div
+        class="bg-white rounded-3xl shadow-lg p-10 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300"
+      >
+
+        <i
+          class="fa-brands fa-whatsapp text-6xl text-green-500 mb-6"
+        ></i>
+
+        <h3 class="text-2xl font-bold mb-4">
+          WhatsApp
+        </h3>
+
+        <a
+          href="https://wa.me/62895337080857"
+          target="_blank"
+          class="text-lg text-gray-600 hover:text-green-600"
+        >
+          0895337080857
+        </a>
+
+      </div>
+
+      <!-- Location -->
+      <div
+        class="bg-white rounded-3xl shadow-lg p-10 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-300"
+      >
+
+        <i
+          class="fa-solid fa-location-dot text-6xl text-blue-500 mb-6"
+        ></i>
+
+        <h3 class="text-2xl font-bold mb-4">
+          Location
+        </h3>
+
+        <p class="text-lg text-gray-600">
+          Cirebon, Jawa Barat
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <footer class="bg-gray-900 text-white text-center py-5">
       © 2026 Achmad Wildan Alfarizky
