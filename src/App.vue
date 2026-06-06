@@ -174,71 +174,92 @@ const projects = [
     </section>
 
     <!-- Experience -->
-    <section
-      id="experience"
-      class="bg-white py-20"
-    >
-      <div class="max-w-6xl mx-auto px-6">
+<section
+  id="experience"
+  class="bg-white py-20"
+>
+  <div class="max-w-6xl mx-auto px-6">
 
-        <h2 class="text-4xl font-bold text-center mb-12">
-          Experience
-        </h2>
+    <h2 class="text-4xl font-bold text-center mb-12">
+      Experience
+    </h2>
 
-        <div class="space-y-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-          <div class="border-l-4 border-blue-500 pl-6">
-            <h3 class="font-bold text-xl">
-              Web Developer Intern
-            </h3>
-
-            <p class="text-gray-500">
-              PT Dharma Controlcable Indonesia
-            </p>
-
-            <ul class="list-disc ml-5 mt-3">
-              <li>Maintenance Website Company Profile</li>
-              <li>Analisis React.js</li>
-              <li>Deployment Alibaba Cloud</li>
-              <li>Integrasi MongoDB</li>
-            </ul>
-          </div>
-
-          <div class="border-l-4 border-blue-500 pl-6">
-            <h3 class="font-bold text-xl">
-              Programmer Intern
-            </h3>
-
-            <p class="text-gray-500">
-              PT Kawasan Industri Jababeka Tbk
-            </p>
-
-            <ul class="list-disc ml-5 mt-3">
-              <li>Membuat Website Training</li>
-              <li>Maintenance Website Purchasing</li>
-              <li>Mengaplikasikan ke server lokal</li>
-            </ul>
-          </div>
-
-          <div class="border-l-4 border-blue-500 pl-6">
-            <h3 class="font-bold text-xl">
-              IT Support Intern
-            </h3>
-
-            <p class="text-gray-500">
-              PT Sucofindo Cirebon
-            </p>
-
-            <ul class="list-disc ml-5 mt-3">
-              <li>Troubleshooting Hardware</li>
-              <li>Troubleshooting Software</li>
-              <li>Maintenance Jaringan</li>
-            </ul>
-          </div>
-
+      <!-- Experience 1 -->
+      <div
+        class="bg-white rounded-2xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition"
+      >
+        <div class="text-5xl mb-4">
+          💻
         </div>
 
+        <h3 class="font-bold text-xl mb-2">
+          Web Developer Intern
+        </h3>
+
+        <p class="text-blue-600 font-semibold mb-4">
+          PT Dharma Controlcable Indonesia
+        </p>
+
+        <ul class="list-disc ml-5 text-gray-600">
+          <li>Maintenance Website Company Profile</li>
+          <li>Analisis React.js</li>
+          <li>Deployment Alibaba Cloud</li>
+          <li>Integrasi MongoDB</li>
+        </ul>
       </div>
-    </section>
+
+      <!-- Experience 2 -->
+      <div
+        class="bg-white rounded-2xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition"
+      >
+        <div class="text-5xl mb-4">
+          🏢
+        </div>
+
+        <h3 class="font-bold text-xl mb-2">
+          Programmer Intern
+        </h3>
+
+        <p class="text-blue-600 font-semibold mb-4">
+          PT Kawasan Industri Jababeka Tbk
+        </p>
+
+        <ul class="list-disc ml-5 text-gray-600">
+          <li>Membuat Website Training</li>
+          <li>Maintenance Website Purchasing</li>
+          <li>Analisis dan Optimasi Sistem</li>
+        </ul>
+      </div>
+
+      <!-- Experience 3 -->
+      <div
+        class="bg-white rounded-2xl shadow-lg p-6 hover:-translate-y-2 hover:shadow-2xl transition"
+      >
+        <div class="text-5xl mb-4">
+          🖥️
+        </div>
+
+        <h3 class="font-bold text-xl mb-2">
+          IT Support Intern
+        </h3>
+
+        <p class="text-blue-600 font-semibold mb-4">
+          PT Sucofindo Cirebon
+        </p>
+
+        <ul class="list-disc ml-5 text-gray-600">
+          <li>Troubleshooting Hardware</li>
+          <li>Troubleshooting Software</li>
+          <li>Maintenance Jaringan</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     <!-- Skills -->
     <section
