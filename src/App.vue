@@ -200,6 +200,9 @@ const projects = [
 
         <p class="text-blue-600 font-semibold mb-4">
           PT Dharma Controlcable Indonesia
+          <p class="text-gray-500 text-sm mb-4">
+          24 Oktober 2025 – 24 April 2026 (6 Bulan)
+        </p>
         </p>
 
         <ul class="list-disc ml-5 text-gray-600">
@@ -224,6 +227,9 @@ const projects = [
 
         <p class="text-blue-600 font-semibold mb-4">
           PT Kawasan Industri Jababeka Tbk
+           <p class="text-gray-500 text-sm mb-4">
+           16 Februari 2024 – 30 Juni 2024 (5 Bulan)
+        </p>
         </p>
 
         <ul class="list-disc ml-5 text-gray-600">
@@ -247,6 +253,9 @@ const projects = [
 
         <p class="text-blue-600 font-semibold mb-4">
           PT Sucofindo Cirebon
+          <p class="text-gray-500 text-sm mb-4">
+          5 Desember 2018 – 28 Februari 2019 (3 Bulan)
+        </p>
         </p>
 
         <ul class="list-disc ml-5 text-gray-600">
@@ -480,8 +489,6 @@ const projects = [
     </h2>
 
     <p class="text-center text-xl text-gray-600 mb-16">
-      Mari berdiskusi mengenai project, peluang kerja,
-      atau kolaborasi pengembangan website.
     </p>
 
     <div class="grid md:grid-cols-3 gap-8">
