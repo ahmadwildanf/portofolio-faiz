@@ -101,6 +101,8 @@ const projects = [
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#certificates">Certificates</a>
           <a href="#project">Projects</a>
           <a href="#contact">Contact</a>
         </div>
@@ -161,14 +163,9 @@ const projects = [
 
       <div class="bg-white p-8 rounded-2xl shadow">
 
-        <p class="leading-relaxed text-gray-700">
-          Saya memiliki pengalaman di bidang IT Support,
-          Programmer dan Web Developer. Berpengalaman
-          dalam pengembangan aplikasi web menggunakan
-          PHP, CodeIgniter, Laravel, React.js, Vue.js,
-          Node.js, MySQL, MongoDB serta deployment
-          menggunakan Alibaba Cloud.
-        </p>
+       <p class="leading-relaxed text-gray-700">
+  I am a dedicated Web Developer with experience in IT Support, Programming, and Full-Stack Web Development. My professional background includes developing and maintaining web applications, optimizing existing systems, and deploying applications to cloud environments. I have worked with modern technologies such as PHP, CodeIgniter, Laravel, React.js, Vue.js, Node.js, MySQL, MongoDB, and Alibaba Cloud. I am highly motivated to create innovative digital solutions, continuously learn new technologies, and contribute to impactful projects that deliver real business value.
+</p>
 
       </div>
     </section>
@@ -271,78 +268,179 @@ const projects = [
 </section>
 
     <!-- Skills -->
-    <section
-      id="skills"
-      class="py-20 bg-gray-100"
-    >
-      <div class="max-w-6xl mx-auto px-6">
-
-        <h2 class="text-4xl font-bold text-center mb-10">
-          Skills
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-5">
-
-          <div class="bg-white p-4 rounded-xl shadow text-center">PHP</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">CodeIgniter 4</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">Laravel</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">React.js</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">Vue.js</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">Node.js</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">MySQL</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">MongoDB</div>
-          <div class="bg-white p-4 rounded-xl shadow text-center">Alibaba Cloud</div>
-
-        </div>
-
-        <section class="py-20 bg-white">
+<section
+  id="skills"
+  class="py-20 bg-gray-100"
+>
   <div class="max-w-6xl mx-auto px-6">
 
     <h2 class="text-4xl font-bold text-center mb-10">
+      Skills
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-5">
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        PHP
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        CodeIgniter 4
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        Laravel
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        React.js
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        Vue.js
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        Node.js
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        MySQL
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        MongoDB
+      </div>
+
+      <div class="bg-white p-4 rounded-xl shadow text-center hover:shadow-lg transition">
+        Alibaba Cloud
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Education -->
+<section
+  id="education"
+  class="py-20 bg-gradient-to-b from-blue-50 to-white scroll-mt-24"
+>
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-center mb-12">
+      Education
+    </h2>
+
+    <div class="flex justify-center">
+
+      <div
+        class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-3xl shadow-xl p-10 max-w-2xl w-full text-center hover:scale-105 transition duration-300"
+      >
+
+        <div class="text-6xl mb-5">
+          🎓
+        </div>
+
+        <h3 class="text-3xl font-bold mb-3">
+          Universitas Bina Sarana Informatika
+        </h3>
+
+        <p class="text-xl font-semibold mb-2">
+          S1 Information System
+        </p>
+
+        
+        <p class="text-xl font-semibold mb-2">
+          GPA
+        </p>
+
+        <p class="text-blue-100 text-lg">
+          2021 - 2025
+        </p>
+
+        <div class="mt-6">
+          <span
+            class="bg-white text-blue-600 px-4 py-2 rounded-full font-semibold"
+          >
+            Bachelor Degree
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Certificates -->
+<section
+  id="certificates"
+  class="py-20 bg-white scroll-mt-24"
+>
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-center mb-12">
       Certificates
     </h2>
 
-    <div class="grid md:grid-cols-3 gap-6">
+    <div class="grid md:grid-cols-3 gap-8">
 
+      <!-- Certificate 1 -->
       <a
         href="/sertifikat magang jababeka.pdf"
         target="_blank"
-        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+        class="bg-gray-50 rounded-2xl shadow-lg p-8 text-center hover:-translate-y-2 hover:shadow-xl transition"
       >
-        <h3 class="font-bold">
+        <div class="text-5xl mb-4">
+          🏆
+        </div>
+
+        <h3 class="font-bold text-xl">
           MSIB Batch 6
         </h3>
 
-        <p class="text-gray-600 mt-2">
+        <p class="text-gray-600 mt-3">
           PT Kawasan Industri Jababeka Tbk
         </p>
       </a>
 
+      <!-- Certificate 2 -->
       <a
         href="/sertifikat BNSP.pdf"
         target="_blank"
-        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+        class="bg-gray-50 rounded-2xl shadow-lg p-8 text-center hover:-translate-y-2 hover:shadow-xl transition"
       >
-        <h3 class="font-bold">
+        <div class="text-5xl mb-4">
+          📜
+        </div>
+
+        <h3 class="font-bold text-xl">
           Analisis Program
         </h3>
 
-        <p class="text-gray-600 mt-2">
+        <p class="text-gray-600 mt-3">
           Sertifikat Kompetensi BNSP
         </p>
       </a>
 
+      <!-- Certificate 3 -->
       <a
         href="/sertifikat maganghub.pdf"
         target="_blank"
-        class="bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg"
+        class="bg-gray-50 rounded-2xl shadow-lg p-8 text-center hover:-translate-y-2 hover:shadow-xl transition"
       >
-        <h3 class="font-bold">
-         MagangHub Batch 1
+        <div class="text-5xl mb-4">
+          🚀
+        </div>
+
+        <h3 class="font-bold text-xl">
+          MagangHub Batch 1
         </h3>
 
-        <p class="text-gray-600 mt-2">
-          PT DharmaControlCable Indonesia
+        <p class="text-gray-600 mt-3">
+          PT Dharma Controlcable Indonesia
         </p>
       </a>
 
@@ -350,9 +448,6 @@ const projects = [
 
   </div>
 </section>
-
-      </div>
-    </section>
 
    <!-- Projects -->
 <section
