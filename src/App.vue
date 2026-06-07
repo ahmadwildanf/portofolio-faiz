@@ -338,34 +338,31 @@ const projects = [
         class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-3xl shadow-xl p-10 max-w-2xl w-full text-center hover:scale-105 transition duration-300"
       >
 
-        <div class="text-6xl mb-5">
-          🎓
-        </div>
+        <div
+  class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-3xl shadow-xl p-10 max-w-2xl w-full text-center hover:scale-105 transition duration-300"
+>
 
-        <h3 class="text-3xl font-bold mb-3">
-          Universitas Bina Sarana Informatika
-        </h3>
+  <div class="text-6xl mb-5">
+    🎓
+  </div>
 
-        <p class="text-xl font-semibold mb-2">
-          S1 Information System
-        </p>
+  <h3 class="text-3xl font-bold mb-3">
+    Universitas Bina Sarana Informatika
+  </h3>
 
-        
-        <p class="text-xl font-semibold mb-2">
-          GPA
-        </p>
+  <p class="text-xl font-semibold mb-2">
+    Bachelor of Information Systems
+  </p>
 
-        <p class="text-blue-100 text-lg">
-          2021 - 2025
-        </p>
+  <p class="text-blue-100 text-lg">
+    2021 - 2025
+  </p>
 
-        <div class="mt-6">
-          <span
-            class="bg-white text-blue-600 px-4 py-2 rounded-full font-semibold"
-          >
-            Bachelor Degree
-          </span>
-        </div>
+  <p class="mt-3 text-lg font-medium">
+    GPA: 3.94 / 4.00
+  </p>
+
+</div>
 
       </div>
 
